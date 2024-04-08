@@ -68,9 +68,18 @@ exports[`Welcome renders correctly 1`] = `
       {
         "alignItems": "center",
         "backgroundColor": "yellow",
+        "borderRadius": 20,
+        "elevation": 13,
         "height": 40,
         "justifyContent": "center",
         "opacity": 1,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.39,
+        "shadowRadius": 8.3,
         "width": "70%",
       }
     }
