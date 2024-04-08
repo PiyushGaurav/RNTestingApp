@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Comp renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "padding": 24,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="enter your name"
+    style={
+      {
+        "borderColor": "#333",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "color": "black",
+        "fontWeight": "bold",
+        "marginVertical": 15,
+        "padding": 10,
+        "width": "90%",
+      }
+    }
+    value=""
+  />
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="submit"
+  >
+    <View
+      style={
+        [
+          {},
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;

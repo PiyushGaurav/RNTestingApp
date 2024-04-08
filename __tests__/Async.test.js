@@ -45,11 +45,11 @@ describe('Async component', () => {
   });
 
   it('renders posts if request succeeds', async () => {
-    global.fetch = jest.fn(() =>
-      Promise.resolve({
-        json: () => Promise.resolve(mockResponse),
-      }),
-    );
+    // global.fetch = jest.fn(() =>
+    //   Promise.resolve({
+    //     json: () => Promise.resolve(mockResponse),
+    //   }),
+    // );
     render(<Async />);
     await waitFor(async () => {
       const listItemElements = await screen.findAllByTestId('listitem');
