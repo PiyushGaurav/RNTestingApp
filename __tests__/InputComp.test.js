@@ -22,7 +22,6 @@ describe('Input Comp', () => {
 
     fireEvent.press(buttonElement);
 
-    // expect(onSubmitMock).toHaveBeenCalledTimes(1);
     expect(input.props.value).toBe('John Doe');
   });
 });

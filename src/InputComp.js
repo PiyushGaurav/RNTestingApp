@@ -20,7 +20,7 @@ const InputComp = () => {
       <Button
         testID="submit"
         style={styles.btn}
-        onPress={onSubmit} // This line
+        onPress={onSubmit}
         title="Submit"
       />
     </View>
